@@ -13,7 +13,6 @@
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
   Build a command-line Rock-Paper-Scissors game where a player can play against the computer.
@@ -51,12 +50,12 @@
 
 ## My process
 
-I created a function -get_choice()- to get the choice of the player using input function.
-I created a tuple and stored it in a variable called option. I used the tuple to create the computer's choice and i used the -random.choice- function to make it select randomly. I then created a dictionary using player and computer as key and player_choice and computer_choice as the value respectively, then stored it in a variable called choices and returned choices.
+I created a function **get_choice()** to get the choice of the player using input function.
+I created a tuple and stored it in a variable called option. I used the tuple to create the computer's choice and i used the **random.choice** function to make it select randomly. I then created a dictionary using player and computer as key and player_choice and computer_choice as the value respectively, then stored it in a variable called choices and returned choices.
 
-I created another function named -check_win_ to check the winner and i added "player" and "computer" as an arguments. I used "if" and "elif" conditional statement to state the conditions that must be true to win.
+I created another function named **check_win** to check the winner and i added "player" and "computer" as an arguments. I used "if" and "elif" conditional statement to state the conditions that must be true to win.
 
-I then created -main- function to calculate and print the result. I used the wile loop to set if the user wants to replay or quit.
+I then created **main** function to calculate and print the result. I used the wile loop to set if the user wants to replay or quit.
 
 and i finally called the main function
 
@@ -78,5 +77,5 @@ I learnt how to create and call functions. I also learnt how to use the while lo
 
 ## Acknowledgments
 
-i appreciate Sir kadibia for helping me start out on my Journey and guiding me towards the right resources to use.
+i appreciate **Sir kadibia** for helping me start out on my Journey and guiding me towards the right resources to use.
 
